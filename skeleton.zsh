@@ -1,6 +1,6 @@
 skeleton() {
     dir="$HOME/.skeleton"
-    cp -nr "$dir/$1/." .
+    cp -nr "$dir/$1/." "$2"
 }
 
 # Auto complete code
